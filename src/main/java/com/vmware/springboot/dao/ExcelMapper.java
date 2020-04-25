@@ -9,4 +9,5 @@ import java.util.List;
 public interface ExcelMapper {
 
     public int  InsertXlsData(List<Supplier> list);
+    
 }
