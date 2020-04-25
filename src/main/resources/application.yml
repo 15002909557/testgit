@@ -1,0 +1,19 @@
+server:
+  port: 9090
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://dc-test-app1:3306/test?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.vmware.springboot.modle
+
