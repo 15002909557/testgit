@@ -7,6 +7,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
+
 public class MultiLineHeadExcelModel  extends BaseRowModel {
 
     @ExcelProperty(value = {"head1","head1","head31"},index = 0)
